@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form in Table format</title>
+</head>
+<body>
+    <form>
+        <table border="1" width="60%" bordercolor="black" align="center">
+            <tr>
+                <td bgcolor="yellow" colspan="2" align="center"><font color="red">User Form</font></td>
+            </tr>
+            <tr>
+                <td bgcolor="lightgray" align="center">Enter Name</td>
+                <td bgcolor="skyblue"><input type="text" name="name"></td>
+            </tr>
+            <tr>
+                <td bgcolor="lightgray" align="center">Enter Password</td>
+                <td bgcolor="skyblue"><input type="password" name="password"></td>
+            </tr>
+            <tr>
+                <td bgcolor="lightgray" align="center">Enter Address</td>
+                <td bgcolor="skyblue"><textarea name="address"></textarea></td>
+            </tr>
+            <tr>
+                <td bgcolor="lightgray" align="center">Select Game</td>
+                <td bgcolor="skyblue">
+                    <input type="checkbox" name="game" value="hockey"> Hockey <br>
+                    <input type="checkbox" name="game" value="football"> Football <br>
+                    <input type="checkbox" name="game" value="badminton"> Badminton <br>
+                    <input type="checkbox" name="game" value="cricket"> Cricket <br>
+                    <input type="checkbox" name="game" value="volleyball"> Volleyball <br>
+                </td>
+            </tr>
+            <tr>
+                <td bgcolor="lightgray" align="center">Gender</td>
+                <td bgcolor="skyblue">
+                    <input type="radio" name="gender" value="male"> Male
+                    <input type="radio" name="gender" value="female"> Female
+                </td>
+            </tr>
+            <tr>
+                <td bgcolor="lightgray" align="center">Select your age</td>
+                <td bgcolor="skyblue">
+                    <select name="age">
+                        <option>Select</option>
+                        <option>18-25</option>
+                        <option>26-35</option>
+                        <option>36-45</option>
+                        <option>46+</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td bgcolor="lightgray" align="center">Upload File</td>
+                <td bgcolor="skyblue"><input type="file" name="file"></td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center" bgcolor="lightgray">
+                    <input type="button" value="Click Me">
+                    <input type="reset" value="Reset">
+                    <input type="submit" value="Submit Form">
+                </td>
+            </tr>
+        </table>
+    </form>
+
+</body>
+</html>
